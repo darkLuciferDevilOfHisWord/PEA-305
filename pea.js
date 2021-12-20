@@ -72,7 +72,7 @@ function insertOutput2(){
     afterResult.innerHTML = `
     <button type="button" class="btn btn-light" onclick="clearAll()">Clear All</button>
     `;
-    input2.focus();
+    input1.focus();
 }
 
 function clearAll(){
@@ -285,9 +285,7 @@ function Lcm(){
         final = temp2;
         result.innerText = `LCM of value 1 is : ${final}`;
         afterResult.innerHTML = `
-        <button type="button" class="btn btn-light" onclick="insertOutput()">Set O/P in 1</button>
         <button type="button" class="btn btn-light" onclick="clearAll()">Clear All</button>
-        <button type="button" class="btn btn-light" onclick="insertOutput2()">Set O/P in 2</button>
         `;
         history1.innerHTML += `<div style="overflow-x: scroll; width: 85vw;">LCM ${value1} = ${final}</div> <hr>`;
         history2.innerHTML += `<div style="overflow-x: scroll; width: 85vw;">LCM ${value1} = ${final}</div> <hr>`;
